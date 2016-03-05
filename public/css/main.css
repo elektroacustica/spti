@@ -1,47 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
-
-li a{
+.espaciado{
+    margin-top: 2em;
+}
+.footer{
+    background: #3498db;
     color: white;
 }
-.nav{
-    font-family: 'Lato', sans-serif;
-}
-.nav{
+.footer-text{
+    border-top: .1em solid white;
+    font-weight: 300;
     width: 100%;
-    background: #2980b9;
-    height: 70px;
 }
-.nav ul li{
-    padding-left: 1em;
-    padding-right: 1em;
-}
-.search{
-    position: relative
-}
-    .search-input{
-        outline: none;
-        border: 0;
-        padding: .5em;
-        border-bottom: .3em solid #bdc3c7;
-    }
-    .search-button{
-        color: white;
-        position: absolute;
-        background: #f1c40f;
-        border: 0;
-        top: 0;
-        right: 0;
-        height: 100%;
-        outline: none;
-        border-bottom: .3em solid #f39c12;
-        font-size: .9em;
-    }
-    .search-button:before{
-        content: "";
-        position: absolute;
-        left: -1.1em;
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid transparent;
-        border-left: 10px solid transparent;
-        border-right: 10px solid #f1c40f;
-    }
